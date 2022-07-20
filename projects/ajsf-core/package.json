@@ -1,7 +1,7 @@
 {
-  "name": "@ajsf/core",
+  "name": "@ajsf-extended/core",
   "version": "0.7.0",
-  "description": "Angular JSON Schema Form builder core",
+  "description": "Angular JSON Schema Form builder core - fork from https://github.com/hamzahamidi/ajsf",
   "author": "https://github.com/hamzahamidi/ajsf/graphs/contributors",
   "keywords": [
     "Angular",
@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamzahamidi/ajsf"
+    "url": "git+https://github.com/dkarkanas/ajsf"
   },
   "bugs": {
-    "url": "https://github.com/hamzahamidi/ajsf/issues"
+    "url": "https://github.com/dkarkanas/ajsf/issues"
   },
   "private": false,
   "dependencies": {
