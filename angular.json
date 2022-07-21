@@ -112,7 +112,7 @@
         }
       }
     },
-    "@ajsf/core": {
+    "@ajsf-extended/core": {
       "root": "projects/ajsf-core",
       "sourceRoot": "projects/ajsf-core/src",
       "projectType": "library",
@@ -140,7 +140,7 @@
         }
       }
     },
-    "@ajsf/bootstrap4": {
+    "@ajsf-extended/bootstrap4": {
       "projectType": "library",
       "root": "projects/ajsf-bootstrap4",
       "sourceRoot": "projects/ajsf-bootstrap4/src",
