@@ -1,29 +1,20 @@
 {
   "name": "@ajsf-extended/core",
-  "version": "0.7.0",
+  "version": "0.7.6",
   "description": "Angular JSON Schema Form builder core - fork from https://github.com/hamzahamidi/ajsf",
   "author": "https://github.com/dkarkanas/ajsf/graphs/contributors",
-  "keywords": [
-    "Angular",
-    "ng",
-    "Angular13",
-    "Angular 13",
-    "ng13",
-    "JSON Schema",
-    "form",
-    "forms",
-    "form builder",
-    "ajsf",
-    "angular json schema form"
-  ],
+  "keywords": [],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkarkanas/ajsf"
+    "url": "git+https://github.com/dkarkanas/ajsf.git"
   },
   "bugs": {
     "url": "https://github.com/dkarkanas/ajsf/issues"
   },
+  "files":[
+    "dist/**"
+  ],
   "private": false,
   "dependencies": {
     "lodash-es": "~4.17.21",
@@ -39,5 +30,10 @@
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.3"
+  },
+  "homepage": "https://github.com/dkarkanas/ajsf#readme",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

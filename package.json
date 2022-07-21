@@ -59,7 +59,7 @@
     "prestart": "npm run build:libs",
     "start": "ng serve",
     "start:demo-only": "ng serve",
-    "build:core": "ng build @ajsf/core --configuration production",
+    "build:core": "ng build @ajsf-extended/core --configuration production",
     "postbuild:core": "cp README.md LICENSE  dist/@ajsf/core/",
     "build:bs3": "ng build @ajsf/bootstrap3 --configuration production",
     "postbuild:bs3": "cp projects/ajsf-bootstrap3/README.md LICENSE dist/@ajsf/bootstrap3/",
