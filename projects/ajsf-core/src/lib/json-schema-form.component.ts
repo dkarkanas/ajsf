@@ -265,15 +265,17 @@ export class JsonSchemaFormComponent implements ControlValueAccessor, OnChanges,
 
         // If anything else has changed, re-render the entire form
       } else if (changedInput.length) {
-        this.initializeForm();
-        if (this.onChange) { this.onChange(this.jsf.formValues); }
-        if (this.onTouched) { this.onTouched(this.jsf.formValues); }
+        // remove 2way data-bind side effects
+        // this.initializeForm();
+        // if (this.onChange) { this.onChange(this.jsf.formValues); }
+        // if (this.onTouched) { this.onTouched(this.jsf.formValues); }
       }
 
+      // remove 2way data-bind side effects
       // Update previous inputs
-      Object.keys(this.previousInputs)
-        .filter(input => this.previousInputs[input] !== this[input])
-        .forEach(input => this.previousInputs[input] = this[input]);
+      // Object.keys(this.previousInputs)
+      //   .filter(input => this.previousInputs[input] !== this[input])
+      //   .forEach(input => this.previousInputs[input] = this[input]);
     }
   }
 
